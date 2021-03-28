@@ -11,8 +11,6 @@ aiohttp = "^3.6.2"
 vkwave = {git = "https://github.com/fscdev/vkwave.git"}
 aiofile = "^1.5.2"
 
-[tool.poetry.scripts]
-vcollector-start = "vcollector.bot:run"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.770"
